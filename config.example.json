@@ -1,0 +1,10 @@
+{
+  "SHEET_URL": "PASTE_YOUR_WEB_APP_URL_HERE (ends with /exec)",
+  "SECRET": "PASTE_THE_KEY_FROM_THE_SHEET_MENU",
+  "GROUP_NAME": "Marketing Team Tasks",
+  "GROUP_ID": "",
+  "PAIR_WITH_NUMBER": "",
+  "TIMEZONE": "Asia/Dhaka",
+  "REMINDER_CRON": "0 10 * * 0-4",
+  "POST_SHEET_UPDATES": true
+}

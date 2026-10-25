@@ -1,0 +1,23 @@
+{
+  "name": "team-task-tracker-bot",
+  "version": "2.0.0",
+  "description": "WhatsApp group → Google Sheet task tracker (cloud edition)",
+  "main": "index.js",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test-parser.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "baileys": "7.0.0-rc14",
+    "chrono-node": "^2.10.3",
+    "node-cron": "^4.6.0",
+    "pino": "^10.4.0",
+    "qrcode": "^1.5.4",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
